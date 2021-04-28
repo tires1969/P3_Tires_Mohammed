@@ -1,0 +1,93 @@
+@media screen and (max-width: 1100px )
+{
+	.menu-fonction
+	{
+		display: block;
+		margin-left: 20px;
+        margin-right: 20px;
+		
+	}
+	.elem-fonction
+	{
+		margin-bottom: 20px;
+	}
+	#section-restau
+	{
+		width: auto;
+	}
+	main
+	{
+		margin-left:10px;
+		margin-right: 10px;
+	}
+}
+
+@media screen and (max-width: 767px )
+{
+	main
+	{
+		 margin-left: 0px;
+         margin-right: 0px;
+	}
+	#bloc-restau
+	{
+		display: block;
+		padding-bottom: 40px;
+	}
+	#section-restau
+	{
+       border-radius: 20px 20px 0 0;
+	}
+	
+	.elem-fonction
+	{
+		width: 90%;
+		margin-left: auto;
+		margin-right:auto;
+	}
+    #container-footer
+    {
+    	margin-top: 0px;
+    }
+
+
+	#bloc-footer
+	{
+		flex-direction: column;	
+	}
+	footer h3
+	{
+		text-align: start;
+		padding-left: 20px;
+	}
+	.element-footer
+	{
+		padding-bottom: 0px;
+		padding-top: 10px;
+	}
+
+	#background-barre-recherche
+	{
+		background: #eaeaea;
+	}
+	
+	h2
+	{
+		margin-top: 40px;
+		margin-left: 10px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

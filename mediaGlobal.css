@@ -1,0 +1,77 @@
+@media screen and (max-width: 1265px )
+{
+	header
+	{
+		width: 100%;
+	}
+	section
+	{
+		width: 100%;
+	}
+	.titre-page
+	{
+        width: 100%;
+	}
+	#container-menus
+	{
+		display: block;
+	}
+	.categorie-menu
+	{
+		width: 100%;
+		margin-bottom: 40px;
+	}
+
+	
+
+@media screen and (max-width: 600px )
+{
+	body h1
+	{
+		margin-bottom: 0px;
+	}
+	section img
+	{
+		height: 400px;
+		margin-top: 0px;
+		border-radius: 0px;
+	}
+	.titre-page h2
+	{ 
+		font-size: 2em;
+
+	}
+	#bloc-footer
+	{
+		display: block;
+	}
+
+	#container-footer h3
+	{
+		text-align:left;
+		padding-left: 30px;
+	}
+	.Flex_element_footer
+	{
+		padding: 10px 30px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

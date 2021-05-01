@@ -12,7 +12,7 @@
 	{
         width: 100%;
 	}
-	#container-menus
+	#bloc-categorie-menu
 	{
 		display: block;
 	}
@@ -21,7 +21,8 @@
 		width: 100%;
 		margin-bottom: 40px;
 	}
-
+	
+ }
 	
 
 @media screen and (max-width: 600px )
@@ -51,8 +52,9 @@
 		text-align:left;
 		padding-left: 30px;
 	}
-	.Flex_element_footer
+	.element-footer
 	{
+		display: flex;
 		padding: 10px 30px;
 	}
 

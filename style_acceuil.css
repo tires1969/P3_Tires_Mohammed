@@ -228,17 +228,14 @@ input
  }
  
 
- .element_footer
+ .element-footer
  {
     display: flex;
     padding: 30px;
 
  }
- .element_footer3 
- {
-     display: flex;
- }
- #bloc-Footer
+ 
+ #bloc-footer
  {
     display: flex;
     justify-content: center;

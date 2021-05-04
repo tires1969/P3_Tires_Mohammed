@@ -92,6 +92,36 @@ section img
     bottom: 85px;
     
 }
+.iconEffet
+{
+    position: absolute;
+    right: 120px;
+    top: 30%;
+}
+.iconEffet .fas
+{
+    color: transparent;
+    position: relative;
+    left: 36px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+}
+
+.iconEffet:hover .fas
+{
+    opacity: 1;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.iconEffet:hover .far
+{
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
 
 
  /**************Section flex****************/
@@ -127,7 +157,7 @@ section img
 }
 
 
-.categorie-menu   /**IMPORTANT**/
+.categorie-menu  
 {
     
     display: flex;
@@ -137,6 +167,20 @@ section img
     width: auto;
 
 }
+#background-les-menus button
+{
+    border: none;
+    padding: 15px;
+    border-radius: 25px;
+    background: linear-gradient(#FF79DA, #9356DC);
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+    margin-top: 25px;
+    box-shadow: 0 2px 3px 3px #b1b1b14b;
+    transition: transform 0.5s;
+}
+
 
 
 
@@ -158,7 +202,7 @@ section img
  }
 
 
- .element_footer
+ .element-footer
  {
     display: flex;
     padding: 30px;

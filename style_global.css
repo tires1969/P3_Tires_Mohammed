@@ -90,8 +90,8 @@ section img
     background-color: #F4F4F4;
     position: relative;
     bottom: 85px;
-    
 }
+/*---- animation du coeur--- */ 
 .iconEffet
 {
     position: absolute;
@@ -143,7 +143,33 @@ section img
     background: white;
     box-shadow: 0 0 6px 3px #b1b1b14b;
     text-align: start;
-   
+ }
+    /*animation apparition des menus consecutif*/ 
+ .categorie-menu:nth-child(1) 
+ {
+     animation-delay: 300ms;
+ }
+ .categorie-menu:nth-child(2) 
+ {
+     animation-delay: 900ms;
+ }
+ .categorie-menu:nth-child(3)
+ {
+     animation-delay: 1.5s;
+ }
+ .categorie-menu
+ {
+      animation: border-anime .8s ease-in-out forwards;
+      opacity: 0;
+ }
+ @keyframes border-anime
+{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .element-menu p
@@ -159,26 +185,25 @@ section img
 
 .categorie-menu  
 {
-    
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     padding: 20px;
     width: auto;
-
+    
 }
 #background-les-menus button
 {
     border: none;
     padding: 15px;
     border-radius: 25px;
-    background: linear-gradient(#FF79DA, #9356DC);
+    background: linear-gradient(45deg, #FF79DA, #9356DC);
     color: white;
     font-weight: bold;
     font-size: 1em;
     margin-top: 25px;
     box-shadow: 0 2px 3px 3px #b1b1b14b;
-    transition: transform 0.5s;
+    margin-bottom: 35px;
 }
 
 
@@ -190,12 +215,12 @@ section img
 #container-footer
  {
     background-color: #3B3B3B;
-
  }
  #container-footer h3
  {
     font-family: 'Shrikhand', sans-sérif;
     color: white;
+    font-weight: 300;
     margin: 0;
     padding-top: 40px;
     text-align: center;
@@ -227,20 +252,6 @@ footer div p
     color: white;
 }
 
-button
-{
-    border: none;
-    padding: 15px;
-    border-radius: 25px;
-    background:  #9356DC;
-    color: white;
-    font-weight: bold;
-    font-size: 1em;
-    margin-top: 25px;
-    box-shadow: 0 2px 3px 3px #b1b1b14b; 
-    margin-bottom: 50px;
-    
-}
 
 
 

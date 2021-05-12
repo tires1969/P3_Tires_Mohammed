@@ -285,11 +285,7 @@ footer div p
     color: white;
 }
 /*-----animation page de demarage-----*/
-.loading
-{
-    position: absolute;
-left: 50%;
-}
+
 .loading span
 {
   width: 15px;

@@ -285,18 +285,11 @@ footer div p
     color: white;
 }
 /*-----animation page de demarage-----*/
-.loading {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    z-index: 999;
-    animation: animation_time 0s 3s forwards;
-    display: flex;
-    justify-content: center;
-    align-items: center;
- }
-
+.loading
+{
+    position: absolute;
+left: 50%;
+}
 .loading span
 {
   width: 15px;

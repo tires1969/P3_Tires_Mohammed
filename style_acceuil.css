@@ -285,11 +285,18 @@ footer div p
     color: white;
 }
 /*-----animation page de demarage-----*/
-.loading
-{
-    position: absolute;
-left: 50%;
-}
+.loading {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 999;
+    animation: animation_time 0s 3s forwards;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
 .loading span
 {
   width: 15px;
@@ -297,7 +304,7 @@ left: 50%;
   border-radius: 50%;
   margin: 0 3px;
   display: inline-block;
-  animation: dots 0.5S ;
+  animation: dots 0.6S ;
   animation-iteration-count: 4;
   animation-timing-function: ease-in-out; 
 }
@@ -335,5 +342,10 @@ left: 50%;
      }
     
 }
-
+@keyframes animation_time {
+    to{
+      visibility: hidden;
+    }
+  }
+  
 

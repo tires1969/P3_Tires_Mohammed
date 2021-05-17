@@ -95,34 +95,43 @@ section img
 .iconEffet
 {
     position: absolute;
-    right: 120px;
+    left: 50%;
     top: 30%;
 }
 .iconEffet .fas
 {
-    color: transparent;
+    color:transparent;
     position: relative;
     left: 36px;
-    background: linear-gradient(#FF79DA, #9356DC);
-    background-clip: text;
-    -webkit-background-clip: text;
-    opacity: 0;
+    
 }
 
 .iconEffet:hover .fas
 {
-    opacity: 1;
-    transition: 0.5s;
-    cursor: pointer;
+    color:#FF79DA;
+    animation: fill-heart 3s ease-in-out ;
 }
 .iconEffet:hover .far
 {
-    opacity: 0;
-    transition: .5s;
-    cursor: pointer;
+    opacity:1;
 }
-
-
+@keyframes fill-heart {
+    0%{
+        
+        transform: scale(0);
+    }
+    50%{
+        
+        transform: scale(1);
+        
+    }
+    100%{
+        
+        transform: scale(0);
+        
+    }
+    
+}
 
  /**************Section flex****************/
  
@@ -137,14 +146,16 @@ section img
 
 .element-menu
 {
+    display: flex;
+    flex-wrap: nowrap;
     border-radius: 15px;
     margin-top: 20px;
-    padding: 15px 10px;
     background: white;
     box-shadow: 0 0 6px 3px #b1b1b14b;
     text-align: start;
+    
  }
-    /*animation apparition des menus consecutif*/ 
+    /*animation apparition des menus en cascade*/ 
  .categorie-menu:nth-child(1) 
  {
      animation-delay: 300ms;
@@ -177,9 +188,12 @@ section img
     opacity: 0.8;
 }
 
-.element-menu span
+.anim-element-menu
 {
-    text-align: end;
+    display: block;
+    overflow: hidden;
+    padding: 15px 10px;
+    width: 100%;
 }
 
 
@@ -190,8 +204,51 @@ section img
     justify-content: space-around;
     padding: 20px;
     width: auto;
+}
+        /*--------animation element menu-------*/
+
+.box-check-circle
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.rotate-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #99E2D0;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    transition: all 900ms ease-in;
+    overflow: hidden;
+    width: 0;
+}
+
+.element-menu span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
+
+.rotate-icon .fas
+{  
+    color: #fff;
+    transition: transform 800ms ease-in-out;
+}
+
+.element-menu:hover .fas
+{
+    transform: rotate(360deg);
+}
+.element-menu:hover .rotate-icon
+{
+    width: 70px;
+}
+
+            /*--------bouton de bas de page------------*/
 #background-les-menus button
 {
     border: none;

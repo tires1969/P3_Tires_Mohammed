@@ -185,6 +185,9 @@ section img
 
 .element-menu p
 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
     opacity: 0.8;
 }
 
@@ -262,9 +265,6 @@ section img
     box-shadow: 0 2px 3px 3px #b1b1b14b;
     margin-bottom: 35px;
 }
-
-
-
 
 
 /************FOOTER*************/

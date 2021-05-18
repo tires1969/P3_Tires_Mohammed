@@ -40,7 +40,7 @@ a
 {
     text-decoration: none;
     color: black;
-
+    
 }
 main
 {
@@ -372,6 +372,7 @@ footer div p
     100%
     {
         opacity: 0;
+        z-index: -999;
     }
   }
   

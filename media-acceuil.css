@@ -40,7 +40,6 @@
        border-radius: 20px 20px 0 0;
 	}
 	
-
 	.elem-fonction , .categorie-restau
 	{
 		width: 90%;
@@ -57,27 +56,37 @@
 	{
 		flex-direction: column;	
 	}
-	footer h3
+	#container-footer h3
 	{
-		text-align: start;
-		padding-left: 20px;
+		text-align: left;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
+	.element-footer p
+	{
+		margin-top: 2px;
+		margin-bottom: 2px;
 	}
 	.element-footer
 	{
 		display: flex;
-		padding-bottom: 0px;
-		padding-top: 10px;
+		padding-bottom: 8px;
+		padding-left: 30px;
+		}
+	#bloc_entete
+	{ 
+	background-color:#F6F6F6;
+	padding-bottom : 60px;
+	padding-top: 20px;
 	}
-
-	#background-barre-recherche
-	{
-		background: #eaeaea;
-	}
-	
-	h2
-	{
-		margin-top: 40px;
+	#bloc_entete h2
+		{
+		margin-top : 0px;
 		margin-left: 10px;
+	}
+	#section-fonction
+	{
+	margin-left:20px;
 	}
 
 }

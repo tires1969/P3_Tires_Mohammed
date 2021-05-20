@@ -25,7 +25,7 @@
  }
 	
 
-@media screen and (max-width: 600px )
+@media screen and (max-width: 767px )
 {
 	body h1
 	{
@@ -40,16 +40,23 @@
 	.titre-page h2
 	{ 
 		font-size: 2em;
-
 	}
 	#bloc-footer
 	{
 		flex-direction: column;	
 	}
+	#container-footer h3
+	{
+		text-align: left;
+		margin-left: 30px;
+		margin-bottom: 10px;
+	}
 	.element-footer
 	{
 		display: flex;
-		padding: 10px;
+		padding: initial;
+		padding-bottom: 8px;
+		padding-left: 30px;
 		}
 	
 

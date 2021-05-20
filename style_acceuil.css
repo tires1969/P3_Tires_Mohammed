@@ -15,7 +15,7 @@ body h1
 }
 footer h3
 {
-    font-family: 'Shrikhand', sans-sérif;
+    font-family: "Shrikhand", sans-sérif;
     text-align: center;
     font-size: 1.2em;
     margin-bottom: 10px;
@@ -30,11 +30,6 @@ h2
 h3
 {
     font-size: 1.1em;
-}
-p
-{
-    padding: 0;
-    margin:0;
 }
 a
 {
@@ -53,7 +48,7 @@ main
 
 #background-barre-recherche
 {
-    background: #f6f6f6;
+    background-color:  #d6cfcf;
     height: 60px;
     display: flex;
     align-items: center;
@@ -63,7 +58,7 @@ main
 input
 {
     border:none ;
-    background-color:#f6f6f6;
+    background-color:#d6cfcf;
     height: 30px;
     font-size: 1em;
 }
@@ -100,14 +95,14 @@ input
     font-weight: bold;
     font-size: 1em;
     margin-top: 25px;
-    box-shadow: 0 2px 3px 3px #b1b1b14b;
+    box-shadow: 4px 5px 8px 1px rgba(0,0,0,0.30);
     transition: transform 0.5s;
 }
 #bloc_entete button:hover
 {
-	opacity: 0.95;
-	transform: scale(1.10);
+	opacity: 0.8;
 	transition: transform 0.5s;
+    box-shadow: 4px 5px 8px 1px rgba(41, 41, 41, 0.3);
 }
 
 .menu-fonction
@@ -262,19 +257,21 @@ input
  {
     background-color: #3B3B3B;
     margin-top: 50px;
- }
+ }  
  #container-footer h3
  {
     color: white;
     margin: 0;
     padding-top: 30px;
+    padding-bottom:10px;
  }
  
 
  .element-footer
  {
     display: flex;
-    padding: 30px;
+    align-items:center;
+    padding-left: 30px;
 
  }
  
@@ -293,8 +290,9 @@ footer .fas
     padding-right: 10px;
 
 }
-footer div p
+footer p
 {
+    margin-bottom: top 0;
     color: white;
 }
 /*-----animation page de demarage-----*/

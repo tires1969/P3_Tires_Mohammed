@@ -292,7 +292,7 @@ footer .fas
 }
 footer p
 {
-    margin-bottom: top 0px;
+    margin-bottom: 0px;
     color: white;
 }
 /*-----animation page de demarage-----*/
@@ -307,7 +307,6 @@ footer p
     background-color: white;
     z-index: 9999;
     animation: anim_time_loader 0s 3s forwards;
-    -webkit-animation: anim_time_loader 0s 3s forwards;
 
 }
 
@@ -319,7 +318,6 @@ footer p
   margin: 0 3px;
   display: inline-block;
   animation: dots 0.6s ease-in-out;
-  -webkit-animation : dots 0.6s ease-in-out;
   animation-iteration-count: infinite; 
 }
 

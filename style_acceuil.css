@@ -292,7 +292,7 @@ footer .fas
 }
 footer p
 {
-    margin-bottom: top 0;
+    margin-bottom: top 0px;
     color: white;
 }
 /*-----animation page de demarage-----*/
@@ -306,8 +306,9 @@ footer p
     height: 100%;
     background-color: white;
     z-index: 9999;
-    -webkit-animation: anim_time_loader 0s 3s forwards;
     animation: anim_time_loader 0s 3s forwards;
+    -webkit-animation: anim_time_loader 0s 3s forwards;
+
 }
 
 .loading span
@@ -317,35 +318,31 @@ footer p
   border-radius: 50%;
   margin: 0 3px;
   display: inline-block;
-  -webkit-animation : dots 0.6s ease-in-out;
   animation: dots 0.6s ease-in-out;
+  -webkit-animation : dots 0.6s ease-in-out;
   animation-iteration-count: infinite; 
 }
 
 .loading span:nth-child(1)
 {
-  -webkit-animation-delay: 0.2s;
   animation-delay: 0.2s;
   background-color:#FF79DA;
 }
 
 .loading span:nth-child(2)
 {
-  -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s;
   background-color:#9356DC;
 
 }
 .loading span:nth-child(3)
 {
-  -webkit-animation-delay: 1s;
   animation-delay: 1s;
   background-color:#FF79DA;
 
 }
 .loading span:nth-child(4)
 {
-  -webkit-animation-delay: 1.4s;
   animation-delay: 1.4s;
   background-color:#9356DC;
 
